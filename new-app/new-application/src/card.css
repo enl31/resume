@@ -1,0 +1,40 @@
+body {
+  margin: 1rem;
+}
+
+.img-1 {
+  border: 1.5px solid rgb(126, 126, 126);
+  border-radius: 50%;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px;
+  position: relative;
+  display: inline-block;
+}
+.title-name {
+  font-size: 55px;
+  font-family: sans-serif;
+  margin: 1rem;
+  position: absolute;
+  display: inline-block;
+  text-align: justify;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.discrib {
+  margin: 2rem;
+  position: relative;
+  text-align: justify;
+  display: inline-block;
+  padding-top: 50px;
+}
+p {
+  display: flex;
+}
+.block-line {
+  border-bottom: 1px solid black;
+}
+.chart {
+  border-bottom: 1px solid rgb(124, 124, 124);
+}
