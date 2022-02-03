@@ -1,0 +1,110 @@
+.skill__me {
+  padding: 50px 0;
+}
+.section-title {
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+.primary-btn1 {
+  color: white;
+  border: 2px solid linen;
+  font-size: 12px;
+  background-color: #ff4a57;
+}
+
+.primary-btn1:hover {
+  color: aliceblue;
+  border: 2px solid #ff4a57;
+  background-color: #1f2235;
+}
+
+.section-title span {
+  font-size: 16px;
+  color: #ff4a57;
+}
+.section-title h2 {
+  font-weight: 600;
+  color: #373e68;
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.progress-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  margin: 20px;
+  font-family: "Poppins Medium";
+}
+
+.progress {
+  content: "";
+  width: 90%;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  height: 15px;
+  background: #e9e9ea;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: visible;
+  position: relative;
+}
+
+.progress-bar {
+  box-shadow: none;
+  border: 1px solid #e9e9ea;
+  border-radius: 15px;
+}
+.progress-value {
+  width: 55px;
+  height: 35px;
+  line-height: 27px;
+  border-radius: 20px;
+  background: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  position: absolute;
+  font-family: "Poppins Bold";
+  z-index: 2;
+}
+.progress.orange:before {
+  border: 7px solid #ff4a57;
+}
+.progress.blue:before {
+  border: 7px solid #1a4966;
+}
+.progress.green:before {
+  border: 7px solid #41b1b4;
+}
+.progress.purple:before {
+  border: 7px solid #7f5888;
+}
+.progress.orange .progress-value {
+  left: 85%;
+  border: 5px solid #ff4a57;
+  color: #ff4a57;
+}
+.progress.blue .progress-value {
+  left: 65%;
+  border: 5px solid #1a4966;
+  color: #1a4966;
+}
+.progress.green .progress-value {
+  left: 45%;
+  border: 5px solid #41b1b4;
+  color: #41b1b4;
+}
+.progress.purple .progress-value {
+  border: 5px solid #7f5888;
+  color: #7f5888;
+  left: 80%;
+}
