@@ -39,11 +39,11 @@
   color: #333;
   text-transform: uppercase;
   margin: 20px;
-  font-family: "Poppins Medium";
+  font-family: 'Poppins Medium';
 }
 
 .progress {
-  content: "";
+  content: '';
   width: 90%;
   height: 20px;
   border-radius: 50%;
@@ -73,7 +73,7 @@
   font-size: 17px;
   font-weight: 600;
   position: absolute;
-  font-family: "Poppins Bold";
+  font-family: 'Poppins Bold';
   z-index: 2;
 }
 .progress.orange:before {
@@ -107,4 +107,50 @@
   border: 5px solid #7f5888;
   color: #7f5888;
   left: 80%;
+}
+
+.skill__footer {
+  width: 100%;
+  background: #333541;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: fit-content;
+}
+
+.skill__cotainer {
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+}
+.icon-user {
+  color: white;
+  font-size: 60px;
+  color: white;
+  font-size: 45px;
+  padding: 8px;
+  margin: 0 100px;
+  padding-left: 0px;
+  align-items: center;
+  justify-content: center;
+  /* animation: fadeIn ease 10s; */
+}
+.icon-program {
+  list-style-type: none;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.skill-section-icon {
+  display: flex;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
