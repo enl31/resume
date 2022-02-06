@@ -1,7 +1,5 @@
-/*eslint-disabel*/
-import React, { useState } from "react";
-
-import "./App.css";
+import React, { useState } from 'react';
+import './App.css';
 
 const Collasible = ({ grades, id }) => {
   const [isReadmore, setReadmore] = useState(false);
@@ -24,11 +22,11 @@ const Collasible = ({ grades, id }) => {
         {isReadmore ? (
           <div className="result">
             {state}
-            <i class="fas fa-minus"></i>
+            <i className="fas fa-minus"></i>
           </div>
         ) : (
           <div>
-            <i class="fas fa-plus"></i>
+            <i className="fas fa-plus"></i>
           </div>
         )}
       </span>
